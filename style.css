@@ -466,13 +466,26 @@ a img.aligncenter {
 
 
 .top-navbar .bg-light{
-	background: #4c5a7d !important;
+	background: #396ef5 !important;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 500;
+}
+.navbar-right .hover-btn-new {
+    display: inline-block;
+    width: 250px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    line-height: 50px; /* Centers the text vertically */
+    text-align: center; /* Centers the text horizontally */
+    background-color: orange; /* Customize as needed */
+    color: white;
+    font-size: 14px; /* Adjust as needed */
+    font-weight: bold;
+    border-radius: 4px; /* Gives rounded corners */
+    text-decoration: none; /* Removes underline */
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item{
@@ -702,7 +715,10 @@ a img.aligncenter {
 	background: #ffffff;
 }
 
-
+.boton-derecha {
+    position: relative;
+    left: 23cm; /* Mueve el botón hacia la derecha exactamente 10 cm */
+}
 .box-slider{
 	height: 100%;
 }
@@ -863,7 +879,7 @@ a img.aligncenter {
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #e0dada75;
 }
 
 .section.lb {
@@ -1996,7 +2012,7 @@ hr.invis1 {
     display: table;
     border-radius: 50%;
     font-size: 26px;
-    background-color: #f2f3f5;
+    background-color: #4670c4;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -2403,13 +2419,13 @@ select.mobile-device {
 .contact_form {
     border: none;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #333333;
+    background-color: #1e2cec;
     padding: 40px 30px;
 	margin-right: -15px;
 }
 
 .contact_form .form-control {
-    background-color: #fff;
+    background-color: #3980dd;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
@@ -2804,10 +2820,14 @@ select.mobile-device {
     BUTTONS
 -------------------------------------------------------------------*/
 
+
+
 .navbar-default .btn-light {
     padding: 0 20px;
     margin-left: 15px;
+    
 }
+
 
 .btn-light {
     padding: 13px 40px;
@@ -2832,7 +2852,7 @@ select.mobile-device {
 }
 
 body.host_version .slide-btn.btn-light{
-	background-color: #2d3032 !important;
+	background-color: #2080c0 !important;
 	color: #ffffff !important;
 	border: 2px solid #2d3032 !important;
 }
@@ -2844,15 +2864,6 @@ body.host_version .first-section .effect-1.slide-btn::after{
 
 /**-------------- inner Page css ---------------**/
 
-.all-title-box{
-	background: url(images/banner.jpg)no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	min-height: 300px;
-}
 
 .all-title-box h1{
 	color: #fff;
